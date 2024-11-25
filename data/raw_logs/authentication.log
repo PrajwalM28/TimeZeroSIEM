@@ -1,0 +1,498 @@
+Nov 17 00:17:01 nnn CRON[9815]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 17 00:17:01 nnn CRON[9815]: pam_unix(cron:session): session closed for user root
+Nov 17 00:21:53 nnn systemd-logind[771]: Lid closed.
+Nov 17 00:21:53 nnn systemd-logind[771]: Suspending...
+Nov 17 00:32:37 nnn systemd-logind[771]: Lid opened.
+Nov 17 00:32:37 nnn systemd-logind[771]: Operation 'sleep' finished.
+Nov 17 00:42:07 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 17 00:42:07 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 00:42:25 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 00:42:25 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Nov 17 00:42:25 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 00:47:03 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 00:51:17 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+Nov 17 00:51:17 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 00:51:22 nnn useradd[12041]: new user: name=sshd, UID=118, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+Nov 17 00:51:22 nnn usermod[12048]: change user 'sshd' password
+Nov 17 00:51:22 nnn chage[12055]: changed password expiry for sshd
+Nov 17 00:51:23 nnn sshd[12151]: Server listening on 0.0.0.0 port 22.
+Nov 17 00:51:23 nnn sshd[12151]: Server listening on :: port 22.
+Nov 17 00:51:25 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 00:51:35 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Nov 17 00:51:35 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 00:51:35 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 00:51:43 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/systemctl enable --now ssh
+Nov 17 00:51:43 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 00:51:43 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 00:51:49 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+Nov 17 00:51:49 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 00:51:49 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 00:51:56 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt install openssh-client
+Nov 17 00:51:56 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 00:51:56 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 01:03:16 nnn systemd-logind[771]: Lid closed.
+Nov 17 01:03:16 nnn systemd-logind[771]: Suspending...
+Nov 17 01:51:15 nnn systemd-logind[771]: Lid opened.
+Nov 17 01:51:15 nnn systemd-logind[771]: Operation 'sleep' finished.
+Nov 17 02:11:51 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt install rabbitmq-server
+Nov 17 02:11:51 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 02:14:24 nnn groupadd[14454]: group added to /etc/group: name=epmd, GID=130
+Nov 17 02:14:24 nnn groupadd[14454]: group added to /etc/gshadow: name=epmd
+Nov 17 02:14:24 nnn groupadd[14454]: new group: name=epmd, GID=130
+Nov 17 02:14:24 nnn useradd[14460]: new user: name=epmd, UID=119, GID=130, home=/run/epmd, shell=/usr/sbin/nologin, from=/dev/pts/3
+Nov 17 02:14:24 nnn usermod[14467]: change user 'epmd' password
+Nov 17 02:14:24 nnn chage[14474]: changed password expiry for epmd
+Nov 17 02:14:26 nnn groupadd[14509]: group added to /etc/group: name=rabbitmq, GID=131
+Nov 17 02:14:26 nnn groupadd[14509]: group added to /etc/gshadow: name=rabbitmq
+Nov 17 02:14:26 nnn groupadd[14509]: new group: name=rabbitmq, GID=131
+Nov 17 02:14:26 nnn useradd[14517]: new user: name=rabbitmq, UID=120, GID=131, home=/var/lib/rabbitmq, shell=/usr/sbin/nologin, from=/dev/pts/3
+Nov 17 02:14:26 nnn chage[14524]: changed password expiry for rabbitmq
+Nov 17 02:14:26 nnn chfn[14528]: changed user 'rabbitmq' information
+Nov 17 02:14:33 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 02:17:01 nnn CRON[14857]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 17 02:17:01 nnn CRON[14857]: pam_unix(cron:session): session closed for user root
+Nov 17 02:18:06 nnn sudo:      nnn : TTY=pts/2 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Nov 17 02:18:06 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 02:18:06 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 02:28:40 nnn sshd[15392]: Accepted password for nnn from 172.16.128.180 port 50810 ssh2
+Nov 17 02:28:40 nnn sshd[15392]: pam_unix(sshd:session): session opened for user nnn(uid=1000) by (uid=0)
+Nov 17 02:28:40 nnn systemd-logind[771]: New session 6 of user nnn.
+Nov 17 02:31:30 nnn sshd[15491]: Received disconnect from 172.16.128.180 port 50810:11: disconnected by user
+Nov 17 02:31:30 nnn sshd[15491]: Disconnected from user nnn 172.16.128.180 port 50810
+Nov 17 02:31:30 nnn sshd[15392]: pam_unix(sshd:session): session closed for user nnn
+Nov 17 02:31:30 nnn systemd-logind[771]: Session 6 logged out. Waiting for processes to exit.
+Nov 17 02:31:30 nnn systemd-logind[771]: Removed session 6.
+Nov 17 02:40:14 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Nov 17 02:40:14 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 02:40:47 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 02:41:02 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Nov 17 02:41:02 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 02:41:02 nnn sshd[12151]: Received signal 15; terminating.
+Nov 17 02:41:02 nnn sshd[16222]: Server listening on 0.0.0.0 port 22.
+Nov 17 02:41:02 nnn sshd[16222]: Server listening on :: port 22.
+Nov 17 02:41:02 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 02:56:03 nnn sshd[16997]: Connection from 172.16.128.180 port 50846 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[16997]: Received disconnect from 172.16.128.180 port 50846:11: Bye Bye [preauth]
+Nov 17 02:56:04 nnn sshd[16997]: Disconnected from authenticating user nnn 172.16.128.180 port 50846 [preauth]
+Nov 17 02:56:04 nnn sshd[17005]: Connection from 172.16.128.180 port 50808 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[16999]: Connection from 172.16.128.180 port 50828 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17001]: Connection from 172.16.128.180 port 50900 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17007]: Connection from 172.16.128.180 port 50880 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17008]: Connection from 172.16.128.180 port 50864 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17000]: Connection from 172.16.128.180 port 50832 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17006]: Connection from 172.16.128.180 port 50878 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17003]: Connection from 172.16.128.180 port 50856 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17012]: Connection from 172.16.128.180 port 50848 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17014]: Connection from 172.16.128.180 port 50850 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17009]: Connection from 172.16.128.180 port 50886 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17013]: Connection from 172.16.128.180 port 50852 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17010]: Connection from 172.16.128.180 port 50818 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17002]: Connection from 172.16.128.180 port 50862 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17011]: Connection from 172.16.128.180 port 50838 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17004]: Connection from 172.16.128.180 port 50822 on 172.16.128.125 port 22 rdomain ""
+Nov 17 02:56:04 nnn sshd[17006]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:04 nnn sshd[17005]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:04 nnn sshd[17008]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:04 nnn sshd[17000]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:04 nnn sshd[17001]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:04 nnn sshd[17013]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:04 nnn sshd[17003]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:04 nnn sshd[17004]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:04 nnn sshd[17011]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:04 nnn sshd[17010]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:04 nnn sshd[16999]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:05 nnn sshd[17007]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:05 nnn sshd[17014]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:05 nnn sshd[17012]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:05 nnn sshd[17009]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:05 nnn sshd[17002]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:07 nnn sshd[17006]: Failed password for nnn from 172.16.128.180 port 50878 ssh2
+Nov 17 02:56:07 nnn sshd[17005]: Failed password for nnn from 172.16.128.180 port 50808 ssh2
+Nov 17 02:56:07 nnn sshd[17008]: Failed password for nnn from 172.16.128.180 port 50864 ssh2
+Nov 17 02:56:07 nnn sshd[17000]: Failed password for nnn from 172.16.128.180 port 50832 ssh2
+Nov 17 02:56:07 nnn sshd[17001]: Failed password for nnn from 172.16.128.180 port 50900 ssh2
+Nov 17 02:56:07 nnn sshd[17013]: Failed password for nnn from 172.16.128.180 port 50852 ssh2
+Nov 17 02:56:07 nnn sshd[17003]: Failed password for nnn from 172.16.128.180 port 50856 ssh2
+Nov 17 02:56:07 nnn sshd[17004]: Failed password for nnn from 172.16.128.180 port 50822 ssh2
+Nov 17 02:56:07 nnn sshd[17011]: Failed password for nnn from 172.16.128.180 port 50838 ssh2
+Nov 17 02:56:07 nnn sshd[16999]: Failed password for nnn from 172.16.128.180 port 50828 ssh2
+Nov 17 02:56:07 nnn sshd[17010]: Failed password for nnn from 172.16.128.180 port 50818 ssh2
+Nov 17 02:56:07 nnn sshd[17007]: Failed password for nnn from 172.16.128.180 port 50880 ssh2
+Nov 17 02:56:07 nnn sshd[17014]: Failed password for nnn from 172.16.128.180 port 50850 ssh2
+Nov 17 02:56:07 nnn sshd[17012]: Failed password for nnn from 172.16.128.180 port 50848 ssh2
+Nov 17 02:56:07 nnn sshd[17009]: Failed password for nnn from 172.16.128.180 port 50886 ssh2
+Nov 17 02:56:07 nnn sshd[17002]: Failed password for nnn from 172.16.128.180 port 50862 ssh2
+Nov 17 02:56:09 nnn sshd[17005]: Failed password for nnn from 172.16.128.180 port 50808 ssh2
+Nov 17 02:56:09 nnn sshd[17006]: Failed password for nnn from 172.16.128.180 port 50878 ssh2
+Nov 17 02:56:09 nnn sshd[17008]: Failed password for nnn from 172.16.128.180 port 50864 ssh2
+Nov 17 02:56:09 nnn sshd[17000]: Failed password for nnn from 172.16.128.180 port 50832 ssh2
+Nov 17 02:56:12 nnn sshd[17009]: Failed password for nnn from 172.16.128.180 port 50886 ssh2
+Nov 17 02:56:12 nnn sshd[17011]: Failed password for nnn from 172.16.128.180 port 50838 ssh2
+Nov 17 02:56:12 nnn sshd[17006]: Failed password for nnn from 172.16.128.180 port 50878 ssh2
+Nov 17 02:56:12 nnn sshd[17005]: Failed password for nnn from 172.16.128.180 port 50808 ssh2
+Nov 17 02:56:12 nnn sshd[17007]: Failed password for nnn from 172.16.128.180 port 50880 ssh2
+Nov 17 02:56:12 nnn sshd[17004]: Failed password for nnn from 172.16.128.180 port 50822 ssh2
+Nov 17 02:56:12 nnn sshd[17001]: Failed password for nnn from 172.16.128.180 port 50900 ssh2
+Nov 17 02:56:12 nnn sshd[17013]: Failed password for nnn from 172.16.128.180 port 50852 ssh2
+Nov 17 02:56:12 nnn sshd[17008]: Failed password for nnn from 172.16.128.180 port 50864 ssh2
+Nov 17 02:56:12 nnn sshd[16999]: Failed password for nnn from 172.16.128.180 port 50828 ssh2
+Nov 17 02:56:12 nnn sshd[17012]: Failed password for nnn from 172.16.128.180 port 50848 ssh2
+Nov 17 02:56:12 nnn sshd[17003]: Failed password for nnn from 172.16.128.180 port 50856 ssh2
+Nov 17 02:56:12 nnn sshd[17002]: Failed password for nnn from 172.16.128.180 port 50862 ssh2
+Nov 17 02:56:12 nnn sshd[17010]: Failed password for nnn from 172.16.128.180 port 50818 ssh2
+Nov 17 02:56:12 nnn sshd[17014]: Failed password for nnn from 172.16.128.180 port 50850 ssh2
+Nov 17 02:56:12 nnn sshd[17000]: Failed password for nnn from 172.16.128.180 port 50832 ssh2
+Nov 17 02:56:12 nnn sshd[17010]: Connection closed by authenticating user nnn 172.16.128.180 port 50818 [preauth]
+Nov 17 02:56:12 nnn sshd[17010]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:13 nnn sshd[17013]: Accepted password for nnn from 172.16.128.180 port 50852 ssh2
+Nov 17 02:56:13 nnn sshd[17013]: pam_unix(sshd:session): session opened for user nnn(uid=1000) by (uid=0)
+Nov 17 02:56:13 nnn systemd-logind[771]: New session 7 of user nnn.
+Nov 17 02:56:13 nnn sshd[17013]: User child is on pid 17075
+Nov 17 02:56:13 nnn sshd[17075]: Connection closed by 172.16.128.180 port 50852
+Nov 17 02:56:13 nnn sshd[17075]: Transferred: sent 2380, received 1220 bytes
+Nov 17 02:56:13 nnn sshd[17075]: Closing connection to 172.16.128.180 port 50852
+Nov 17 02:56:13 nnn sshd[17013]: pam_unix(sshd:session): session closed for user nnn
+Nov 17 02:56:13 nnn systemd-logind[771]: Session 7 logged out. Waiting for processes to exit.
+Nov 17 02:56:13 nnn systemd-logind[771]: Removed session 7.
+Nov 17 02:56:14 nnn sshd[17005]: Failed password for nnn from 172.16.128.180 port 50808 ssh2
+Nov 17 02:56:14 nnn sshd[17008]: Failed password for nnn from 172.16.128.180 port 50864 ssh2
+Nov 17 02:56:14 nnn sshd[17006]: Failed password for nnn from 172.16.128.180 port 50878 ssh2
+Nov 17 02:56:14 nnn sshd[17003]: Failed password for nnn from 172.16.128.180 port 50856 ssh2
+Nov 17 02:56:14 nnn sshd[17000]: Failed password for nnn from 172.16.128.180 port 50832 ssh2
+Nov 17 02:56:14 nnn sshd[17011]: Failed password for nnn from 172.16.128.180 port 50838 ssh2
+Nov 17 02:56:14 nnn sshd[17007]: Failed password for nnn from 172.16.128.180 port 50880 ssh2
+Nov 17 02:56:14 nnn sshd[17009]: Failed password for nnn from 172.16.128.180 port 50886 ssh2
+Nov 17 02:56:14 nnn sshd[17012]: Failed password for nnn from 172.16.128.180 port 50848 ssh2
+Nov 17 02:56:14 nnn sshd[16999]: Failed password for nnn from 172.16.128.180 port 50828 ssh2
+Nov 17 02:56:14 nnn sshd[17002]: Failed password for nnn from 172.16.128.180 port 50862 ssh2
+Nov 17 02:56:14 nnn sshd[17014]: Failed password for nnn from 172.16.128.180 port 50850 ssh2
+Nov 17 02:56:14 nnn sshd[17001]: Failed password for nnn from 172.16.128.180 port 50900 ssh2
+Nov 17 02:56:14 nnn sshd[17004]: Failed password for nnn from 172.16.128.180 port 50822 ssh2
+Nov 17 02:56:15 nnn sshd[17006]: Connection closed by authenticating user nnn 172.16.128.180 port 50878 [preauth]
+Nov 17 02:56:15 nnn sshd[17000]: Connection closed by authenticating user nnn 172.16.128.180 port 50832 [preauth]
+Nov 17 02:56:15 nnn sshd[17008]: Connection closed by authenticating user nnn 172.16.128.180 port 50864 [preauth]
+Nov 17 02:56:15 nnn sshd[17006]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17006]: PAM service(sshd) ignoring max retries; 4 > 3
+Nov 17 02:56:15 nnn sshd[17000]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17008]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17000]: PAM service(sshd) ignoring max retries; 4 > 3
+Nov 17 02:56:15 nnn sshd[17008]: PAM service(sshd) ignoring max retries; 4 > 3
+Nov 17 02:56:15 nnn sshd[17005]: Connection closed by authenticating user nnn 172.16.128.180 port 50808 [preauth]
+Nov 17 02:56:15 nnn sshd[17005]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17005]: PAM service(sshd) ignoring max retries; 4 > 3
+Nov 17 02:56:15 nnn sshd[17009]: Connection closed by authenticating user nnn 172.16.128.180 port 50886 [preauth]
+Nov 17 02:56:15 nnn sshd[17009]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17007]: Connection closed by authenticating user nnn 172.16.128.180 port 50880 [preauth]
+Nov 17 02:56:15 nnn sshd[17007]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17003]: Connection closed by authenticating user nnn 172.16.128.180 port 50856 [preauth]
+Nov 17 02:56:15 nnn sshd[17014]: Connection closed by authenticating user nnn 172.16.128.180 port 50850 [preauth]
+Nov 17 02:56:15 nnn sshd[17001]: Connection closed by authenticating user nnn 172.16.128.180 port 50900 [preauth]
+Nov 17 02:56:15 nnn sshd[17003]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17014]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17001]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17011]: Connection closed by authenticating user nnn 172.16.128.180 port 50838 [preauth]
+Nov 17 02:56:15 nnn sshd[17011]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17004]: Connection closed by authenticating user nnn 172.16.128.180 port 50822 [preauth]
+Nov 17 02:56:15 nnn sshd[17004]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17012]: Connection closed by authenticating user nnn 172.16.128.180 port 50848 [preauth]
+Nov 17 02:56:15 nnn sshd[17012]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[17002]: Connection closed by authenticating user nnn 172.16.128.180 port 50862 [preauth]
+Nov 17 02:56:15 nnn sshd[17002]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 02:56:15 nnn sshd[16999]: Connection closed by authenticating user nnn 172.16.128.180 port 50828 [preauth]
+Nov 17 02:56:15 nnn sshd[16999]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:02:45 nnn sudo:      nnn : TTY=pts/1 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/journalctl
+Nov 17 03:02:45 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 03:04:13 nnn sshd[17415]: Connection from 172.16.128.180 port 50802 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:14 nnn sshd[17415]: Received disconnect from 172.16.128.180 port 50802:11: Bye Bye [preauth]
+Nov 17 03:04:14 nnn sshd[17415]: Disconnected from authenticating user nnn 172.16.128.180 port 50802 [preauth]
+Nov 17 03:04:15 nnn sshd[17417]: Connection from 172.16.128.180 port 50852 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17419]: Connection from 172.16.128.180 port 50808 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17418]: Connection from 172.16.128.180 port 50816 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17425]: Connection from 172.16.128.180 port 50832 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[16222]: error: beginning MaxStartups throttling
+Nov 17 03:04:15 nnn sshd[16222]: drop connection #15 from [172.16.128.180]:50836 on [172.16.128.125]:22 past MaxStartups
+Nov 17 03:04:15 nnn sshd[17426]: Connection from 172.16.128.180 port 50810 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17422]: Connection from 172.16.128.180 port 50888 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17431]: Connection from 172.16.128.180 port 50820 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17433]: Connection from 172.16.128.180 port 50812 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17432]: Connection from 172.16.128.180 port 50818 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17420]: Connection from 172.16.128.180 port 50814 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17424]: Connection from 172.16.128.180 port 50866 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17421]: Connection from 172.16.128.180 port 50806 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17427]: Connection from 172.16.128.180 port 50892 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17430]: Connection from 172.16.128.180 port 50894 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17423]: Connection from 172.16.128.180 port 50826 on 172.16.128.125 port 22 rdomain ""
+Nov 17 03:04:15 nnn sshd[17419]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17430]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17417]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17431]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17423]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17427]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17425]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17426]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17422]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17420]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17433]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17424]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:15 nnn sshd[17432]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:16 nnn sshd[17421]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:18 nnn sshd[17419]: Failed password for nnn from 172.16.128.180 port 50808 ssh2
+Nov 17 03:04:18 nnn sshd[17430]: Failed password for nnn from 172.16.128.180 port 50894 ssh2
+Nov 17 03:04:18 nnn sshd[17417]: Failed password for nnn from 172.16.128.180 port 50852 ssh2
+Nov 17 03:04:18 nnn sshd[17431]: Failed password for nnn from 172.16.128.180 port 50820 ssh2
+Nov 17 03:04:18 nnn sshd[17423]: Failed password for nnn from 172.16.128.180 port 50826 ssh2
+Nov 17 03:04:18 nnn sshd[17427]: Failed password for nnn from 172.16.128.180 port 50892 ssh2
+Nov 17 03:04:18 nnn sshd[17425]: Failed password for nnn from 172.16.128.180 port 50832 ssh2
+Nov 17 03:04:18 nnn sshd[17426]: Failed password for nnn from 172.16.128.180 port 50810 ssh2
+Nov 17 03:04:18 nnn sshd[17418]: Failed password for nnn from 172.16.128.180 port 50816 ssh2
+Nov 17 03:04:18 nnn sshd[17422]: Failed password for nnn from 172.16.128.180 port 50888 ssh2
+Nov 17 03:04:18 nnn sshd[17420]: Failed password for nnn from 172.16.128.180 port 50814 ssh2
+Nov 17 03:04:18 nnn sshd[17433]: Failed password for nnn from 172.16.128.180 port 50812 ssh2
+Nov 17 03:04:18 nnn sshd[17424]: Failed password for nnn from 172.16.128.180 port 50866 ssh2
+Nov 17 03:04:18 nnn sshd[17432]: Failed password for nnn from 172.16.128.180 port 50818 ssh2
+Nov 17 03:04:18 nnn sshd[17421]: Failed password for nnn from 172.16.128.180 port 50806 ssh2
+Nov 17 03:04:20 nnn sshd[17421]: Failed password for nnn from 172.16.128.180 port 50806 ssh2
+Nov 17 03:04:22 nnn sshd[17419]: Failed password for nnn from 172.16.128.180 port 50808 ssh2
+Nov 17 03:04:22 nnn sshd[17431]: Failed password for nnn from 172.16.128.180 port 50820 ssh2
+Nov 17 03:04:22 nnn sshd[17430]: Failed password for nnn from 172.16.128.180 port 50894 ssh2
+Nov 17 03:04:22 nnn sshd[17417]: Failed password for nnn from 172.16.128.180 port 50852 ssh2
+Nov 17 03:04:22 nnn sshd[17423]: Failed password for nnn from 172.16.128.180 port 50826 ssh2
+Nov 17 03:04:22 nnn sshd[17427]: Failed password for nnn from 172.16.128.180 port 50892 ssh2
+Nov 17 03:04:22 nnn sshd[17418]: Failed password for nnn from 172.16.128.180 port 50816 ssh2
+Nov 17 03:04:22 nnn sshd[17433]: Failed password for nnn from 172.16.128.180 port 50812 ssh2
+Nov 17 03:04:22 nnn sshd[17420]: Failed password for nnn from 172.16.128.180 port 50814 ssh2
+Nov 17 03:04:22 nnn sshd[17422]: Failed password for nnn from 172.16.128.180 port 50888 ssh2
+Nov 17 03:04:22 nnn sshd[17424]: Failed password for nnn from 172.16.128.180 port 50866 ssh2
+Nov 17 03:04:22 nnn sshd[17426]: Failed password for nnn from 172.16.128.180 port 50810 ssh2
+Nov 17 03:04:22 nnn sshd[17425]: Failed password for nnn from 172.16.128.180 port 50832 ssh2
+Nov 17 03:04:22 nnn sshd[17432]: Failed password for nnn from 172.16.128.180 port 50818 ssh2
+Nov 17 03:04:23 nnn sshd[17421]: Failed password for nnn from 172.16.128.180 port 50806 ssh2
+Nov 17 03:04:25 nnn sshd[17417]: Failed password for nnn from 172.16.128.180 port 50852 ssh2
+Nov 17 03:04:25 nnn sshd[17431]: Failed password for nnn from 172.16.128.180 port 50820 ssh2
+Nov 17 03:04:25 nnn sshd[17430]: Failed password for nnn from 172.16.128.180 port 50894 ssh2
+Nov 17 03:04:25 nnn sshd[17419]: Failed password for nnn from 172.16.128.180 port 50808 ssh2
+Nov 17 03:04:25 nnn sshd[17427]: Failed password for nnn from 172.16.128.180 port 50892 ssh2
+Nov 17 03:04:25 nnn sshd[17423]: Failed password for nnn from 172.16.128.180 port 50826 ssh2
+Nov 17 03:04:25 nnn sshd[17420]: Failed password for nnn from 172.16.128.180 port 50814 ssh2
+Nov 17 03:04:25 nnn sshd[17433]: Failed password for nnn from 172.16.128.180 port 50812 ssh2
+Nov 17 03:04:25 nnn sshd[17432]: Failed password for nnn from 172.16.128.180 port 50818 ssh2
+Nov 17 03:04:25 nnn sshd[17424]: Failed password for nnn from 172.16.128.180 port 50866 ssh2
+Nov 17 03:04:25 nnn sshd[17426]: Failed password for nnn from 172.16.128.180 port 50810 ssh2
+Nov 17 03:04:25 nnn sshd[17418]: Failed password for nnn from 172.16.128.180 port 50816 ssh2
+Nov 17 03:04:25 nnn sshd[17425]: Failed password for nnn from 172.16.128.180 port 50832 ssh2
+Nov 17 03:04:25 nnn sshd[17422]: Failed password for nnn from 172.16.128.180 port 50888 ssh2
+Nov 17 03:04:26 nnn sshd[17417]: Connection closed by authenticating user nnn 172.16.128.180 port 50852 [preauth]
+Nov 17 03:04:26 nnn sshd[17417]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:26 nnn sshd[17418]: Connection closed by authenticating user nnn 172.16.128.180 port 50816 [preauth]
+Nov 17 03:04:26 nnn sshd[17433]: Connection closed by authenticating user nnn 172.16.128.180 port 50812 [preauth]
+Nov 17 03:04:26 nnn sshd[17433]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:26 nnn sshd[17418]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:26 nnn sshd[17422]: Connection closed by authenticating user nnn 172.16.128.180 port 50888 [preauth]
+Nov 17 03:04:26 nnn sshd[17422]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:26 nnn sshd[17426]: Connection closed by authenticating user nnn 172.16.128.180 port 50810 [preauth]
+Nov 17 03:04:26 nnn sshd[17426]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:26 nnn sshd[17432]: Connection closed by authenticating user nnn 172.16.128.180 port 50818 [preauth]
+Nov 17 03:04:26 nnn sshd[17432]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:26 nnn sshd[17424]: Connection closed by authenticating user nnn 172.16.128.180 port 50866 [preauth]
+Nov 17 03:04:26 nnn sshd[17424]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:26 nnn sshd[17420]: Connection closed by authenticating user nnn 172.16.128.180 port 50814 [preauth]
+Nov 17 03:04:26 nnn sshd[17420]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:26 nnn sshd[17425]: Connection closed by authenticating user nnn 172.16.128.180 port 50832 [preauth]
+Nov 17 03:04:26 nnn sshd[17425]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:26 nnn sshd[17431]: Accepted password for nnn from 172.16.128.180 port 50820 ssh2
+Nov 17 03:04:26 nnn sshd[17431]: pam_unix(sshd:session): session opened for user nnn(uid=1000) by (uid=0)
+Nov 17 03:04:26 nnn systemd-logind[771]: New session 8 of user nnn.
+Nov 17 03:04:26 nnn sshd[17431]: User child is on pid 17489
+Nov 17 03:04:26 nnn sshd[17489]: Connection closed by 172.16.128.180 port 50820
+Nov 17 03:04:26 nnn sshd[17489]: Transferred: sent 2416, received 1288 bytes
+Nov 17 03:04:26 nnn sshd[17489]: Closing connection to 172.16.128.180 port 50820
+Nov 17 03:04:26 nnn sshd[17431]: pam_unix(sshd:session): session closed for user nnn
+Nov 17 03:04:26 nnn systemd-logind[771]: Session 8 logged out. Waiting for processes to exit.
+Nov 17 03:04:26 nnn systemd-logind[771]: Removed session 8.
+Nov 17 03:04:26 nnn sshd[17421]: Failed password for nnn from 172.16.128.180 port 50806 ssh2
+Nov 17 03:04:27 nnn sshd[17421]: Connection closed by authenticating user nnn 172.16.128.180 port 50806 [preauth]
+Nov 17 03:04:27 nnn sshd[17421]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:27 nnn sshd[17421]: PAM service(sshd) ignoring max retries; 4 > 3
+Nov 17 03:04:28 nnn sshd[17427]: Failed password for nnn from 172.16.128.180 port 50892 ssh2
+Nov 17 03:04:28 nnn sshd[17430]: Failed password for nnn from 172.16.128.180 port 50894 ssh2
+Nov 17 03:04:28 nnn sshd[17419]: Failed password for nnn from 172.16.128.180 port 50808 ssh2
+Nov 17 03:04:28 nnn sshd[17423]: Failed password for nnn from 172.16.128.180 port 50826 ssh2
+Nov 17 03:04:29 nnn sshd[17427]: Connection closed by authenticating user nnn 172.16.128.180 port 50892 [preauth]
+Nov 17 03:04:29 nnn sshd[17427]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:29 nnn sshd[17427]: PAM service(sshd) ignoring max retries; 4 > 3
+Nov 17 03:04:29 nnn sshd[17430]: Connection closed by authenticating user nnn 172.16.128.180 port 50894 [preauth]
+Nov 17 03:04:29 nnn sshd[17430]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:29 nnn sshd[17430]: PAM service(sshd) ignoring max retries; 4 > 3
+Nov 17 03:04:29 nnn sshd[17419]: Connection closed by authenticating user nnn 172.16.128.180 port 50808 [preauth]
+Nov 17 03:04:29 nnn sshd[17423]: Connection closed by authenticating user nnn 172.16.128.180 port 50826 [preauth]
+Nov 17 03:04:29 nnn sshd[17419]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:29 nnn sshd[17423]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.128.180  user=nnn
+Nov 17 03:04:29 nnn sshd[17423]: PAM service(sshd) ignoring max retries; 4 > 3
+Nov 17 03:04:29 nnn sshd[17419]: PAM service(sshd) ignoring max retries; 4 > 3
+Nov 17 03:10:01 nnn CRON[17748]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 17 03:10:01 nnn CRON[17748]: pam_unix(cron:session): session closed for user root
+Nov 17 03:17:01 nnn CRON[18070]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 17 03:17:01 nnn CRON[18070]: pam_unix(cron:session): session closed for user root
+Nov 17 03:29:04 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log auth_test.log
+Nov 17 03:29:04 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 03:29:04 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 03:29:31 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/cat auth_test.log
+Nov 17 03:29:31 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 03:29:31 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 03:29:48 nnn systemd-logind[771]: Lid closed.
+Nov 17 03:29:48 nnn systemd-logind[771]: Suspending...
+Nov 17 03:50:44 nnn systemd-logind[771]: Lid opened.
+Nov 17 03:50:45 nnn systemd-logind[771]: Operation 'sleep' finished.
+Nov 17 03:50:56 nnn CRON[19141]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 17 03:50:56 nnn CRON[19141]: pam_unix(cron:session): session closed for user root
+Nov 17 04:06:13 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 04:17:01 nnn CRON[20742]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 17 04:17:01 nnn CRON[20742]: pam_unix(cron:session): session closed for user root
+Nov 17 05:17:01 nnn CRON[28079]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 17 05:17:01 nnn CRON[28079]: pam_unix(cron:session): session closed for user root
+Nov 17 05:34:31 nnn sudo:      nnn : TTY=pts/3 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt install sqllite
+Nov 17 05:34:31 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:34:32 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:34:42 nnn sudo:      nnn : TTY=pts/3 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt install sqlite
+Nov 17 05:34:42 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:34:51 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:35:06 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt install mongodb
+Nov 17 05:35:06 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:35:07 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:35:40 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-8.0.list
+Nov 17 05:35:40 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:35:40 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:35:54 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 17 05:35:54 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:36:06 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:36:13 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt-get install -y mongodb-org
+Nov 17 05:36:13 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:36:13 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:36:20 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/gpg -o /usr/share/keyrings/mongodb-server-8.0.gpg --dearmor
+Nov 17 05:36:20 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:36:22 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:36:30 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-8.0.list
+Nov 17 05:36:30 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:36:30 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:36:33 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 17 05:36:33 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:36:36 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:36:36 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Nov 17 05:36:36 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:36:42 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:36:47 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt-get install -y mongodb-org
+Nov 17 05:36:47 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:36:48 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:36:57 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt --fix-broken install
+Nov 17 05:36:57 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:36:58 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:37:30 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 17 05:37:30 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:37:31 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:38:33 nnn su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=nnn rhost=  user=root
+Nov 17 05:38:35 nnn su: FAILED SU (to root) nnn on pts/0
+Nov 17 05:38:56 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Nov 17 05:38:56 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:38:58 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:39:03 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+Nov 17 05:39:03 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:39:03 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:39:12 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 17 05:39:12 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:39:20 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:39:29 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Nov 17 05:39:29 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:39:30 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:39:38 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt install -y mongodb-org
+Nov 17 05:39:38 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:39:39 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:39:56 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt-mark showhold
+Nov 17 05:39:56 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:39:56 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:39:56 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt-get upgrade
+Nov 17 05:39:56 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:39:57 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:40:20 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt install aptitude
+Nov 17 05:40:20 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:40:29 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:40:51 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/aptitude install mongodb-org
+Nov 17 05:40:51 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:41:00 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:41:09 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt --fix-broken install
+Nov 17 05:41:09 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:41:10 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:42:35 nnn polkitd(authority=local): Registered Authentication Agent for unix-process:32669:2787716 (system bus name :1.144 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 17 05:42:48 nnn polkitd(authority=local): Operator of unix-process:32669:2787716 successfully authenticated as unix-user:nnn to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-unit-files for system-bus-name::1.145 [systemctl enable mongodb.service] (owned by unix-user:nnn)
+Nov 17 05:42:48 nnn polkitd(authority=local): Unregistered Authentication Agent for unix-process:32669:2787716 (system bus name :1.144, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Nov 17 05:42:49 nnn polkitd(authority=local): Registered Authentication Agent for unix-process:32679:2789126 (system bus name :1.147 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 17 05:42:52 nnn polkitd(authority=local): Operator of unix-process:32679:2789126 successfully authenticated as unix-user:nnn to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-unit-files for system-bus-name::1.148 [systemctl enable mongodb.service] (owned by unix-user:nnn)
+Nov 17 05:42:52 nnn polkitd(authority=local): Unregistered Authentication Agent for unix-process:32679:2789126 (system bus name :1.147, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Nov 17 05:43:06 nnn polkitd(authority=local): Registered Authentication Agent for unix-process:32760:2790805 (system bus name :1.150 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Nov 17 05:43:08 nnn polkitd(authority=local): Operator of unix-process:32760:2790805 successfully authenticated as unix-user:nnn to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-unit-files for system-bus-name::1.151 [systemctl enable mongod.service] (owned by unix-user:nnn)
+Nov 17 05:43:08 nnn polkitd(authority=local): Unregistered Authentication Agent for unix-process:32760:2790805 (system bus name :1.150, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)
+Nov 17 05:43:21 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/systemctl unmask mongod
+Nov 17 05:43:21 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:43:21 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:43:43 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt-get purge mongodb-org*
+Nov 17 05:43:43 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:43:44 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:43:54 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/rm -r /var/log/mongodb
+Nov 17 05:43:54 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:43:54 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:43:54 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/rm -r /var/lib/mongodb
+Nov 17 05:43:54 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:43:54 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:44:19 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/gpg -o /usr/share/keyrings/mongodb-server-8.0.gpg --dearmor
+Nov 17 05:44:19 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:44:21 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:44:28 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-8.0.list
+Nov 17 05:44:28 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:44:28 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:44:32 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 17 05:44:32 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:44:41 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:44:52 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt-get install -y mongodb-org
+Nov 17 05:44:53 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:46:15 nnn useradd[33804]: new user: name=mongodb, UID=121, GID=65534, home=/home/mongodb, shell=/usr/sbin/nologin, from=/dev/pts/5
+Nov 17 05:46:15 nnn usermod[33811]: change user 'mongodb' password
+Nov 17 05:46:15 nnn chage[33818]: changed password expiry for mongodb
+Nov 17 05:46:15 nnn groupadd[33823]: group added to /etc/group: name=mongodb, GID=132
+Nov 17 05:46:15 nnn groupadd[33823]: group added to /etc/gshadow: name=mongodb
+Nov 17 05:46:15 nnn groupadd[33823]: new group: name=mongodb, GID=132
+Nov 17 05:46:15 nnn gpasswd[33830]: user mongodb added by root to group mongodb
+Nov 17 05:46:17 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 05:58:50 nnn sudo:      nnn : TTY=pts/0 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt install xfce4
+Nov 17 05:58:50 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 05:59:33 nnn groupadd[35196]: group added to /etc/group: name=scanner, GID=133
+Nov 17 05:59:33 nnn groupadd[35196]: group added to /etc/gshadow: name=scanner
+Nov 17 05:59:33 nnn groupadd[35196]: new group: name=scanner, GID=133
+Nov 17 05:59:33 nnn groupadd[35216]: group added to /etc/group: name=saned, GID=134
+Nov 17 05:59:33 nnn groupadd[35216]: group added to /etc/gshadow: name=saned
+Nov 17 05:59:33 nnn groupadd[35216]: new group: name=saned, GID=134
+Nov 17 05:59:33 nnn useradd[35222]: new user: name=saned, UID=122, GID=134, home=/var/lib/saned, shell=/usr/sbin/nologin, from=none
+Nov 17 05:59:33 nnn usermod[35229]: change user 'saned' password
+Nov 17 05:59:33 nnn chage[35236]: changed password expiry for saned
+Nov 17 05:59:34 nnn gpasswd[35241]: user saned added by root to group scanner
+Nov 17 05:59:34 nnn groupadd[35309]: group added to /etc/group: name=colord, GID=135
+Nov 17 05:59:34 nnn groupadd[35309]: group added to /etc/gshadow: name=colord
+Nov 17 05:59:34 nnn groupadd[35309]: new group: name=colord, GID=135
+Nov 17 05:59:34 nnn useradd[35315]: new user: name=colord, UID=123, GID=135, home=/var/lib/colord, shell=/usr/sbin/nologin, from=/dev/pts/5
+Nov 17 05:59:34 nnn usermod[35322]: change user 'colord' password
+Nov 17 05:59:34 nnn chage[35329]: changed password expiry for colord
+Nov 17 05:59:34 nnn chfn[35333]: changed user 'colord' information
+Nov 17 05:59:37 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 06:02:44 nnn sudo:      nnn : TTY=pts/3 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/bin/apt install rsyslog
+Nov 17 06:02:44 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 06:02:44 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 06:03:39 nnn sudo:      nnn : TTY=pts/3 ; PWD=/home/nnn ; USER=root ; COMMAND=/usr/sbin/rsyslogd
+Nov 17 06:03:39 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 06:03:39 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 06:09:18 nnn sudo:      nnn : TTY=pts/5 ; PWD=/home/nnn/ubu_logs ; USER=root ; COMMAND=/usr/bin/cat /var/log/syslog
+Nov 17 06:09:18 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 06:09:18 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 06:09:34 nnn sudo:      nnn : TTY=pts/5 ; PWD=/home/nnn/ubu_logs ; USER=root ; COMMAND=/usr/bin/cat /var/log/kern.log
+Nov 17 06:09:35 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 17 06:09:35 nnn sudo: pam_unix(sudo:session): session closed for user root
+Nov 17 06:09:51 nnn sudo:      nnn : TTY=pts/5 ; PWD=/home/nnn/ubu_logs ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+Nov 17 06:09:51 nnn sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)

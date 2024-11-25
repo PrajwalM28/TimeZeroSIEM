@@ -1,0 +1,57 @@
+[
+    {
+        "message": "Nov 17 05:59:34 nnn systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.",
+        "count": 3,
+        "anomaly": -1
+    },
+    {
+        "message": "Nov 17 05:59:24 nnn dbus-daemon[746]: Unknown group \"power\" in message bus configuration file",
+        "count": 3,
+        "anomaly": -1
+    },
+    {
+        "message": "Nov 17 05:59:24 nnn dbus-daemon[1486]: [session uid=1000 pid=1486] Reloaded configuration",
+        "count": 3,
+        "anomaly": -1
+    },
+    {
+        "message": "Nov 17 00:21:53 nnn wpa_supplicant[779]: wlp6s0: CTRL-EVENT-DSCP-POLICY clear_all",
+        "count": 3,
+        "anomaly": -1
+    },
+    {
+        "message": "Nov 17 05:59:24 nnn dbus-daemon[746]: Unknown username \"whoopsie\" in message bus configuration file",
+        "count": 3,
+        "anomaly": -1
+    },
+    {
+        "message": "Nov 17 05:59:34 nnn systemd[1]: Reloading.",
+        "count": 3,
+        "anomaly": -1
+    },
+    {
+        "message": "Nov 17 05:59:24 nnn dbus-daemon[746]: [system] Reloaded configuration",
+        "count": 3,
+        "anomaly": -1
+    },
+    {
+        "message": "Nov 17 01:03:17 nnn wpa_supplicant[779]: wlp6s0: CTRL-EVENT-DSCP-POLICY clear_all",
+        "count": 3,
+        "anomaly": -1
+    },
+    {
+        "message": "Nov 17 00:51:43 nnn systemd[1]: Reloading.",
+        "count": 3,
+        "anomaly": -1
+    },
+    {
+        "message": "Nov 17 03:29:48 nnn wpa_supplicant[779]: wlp6s0: CTRL-EVENT-DSCP-POLICY clear_all",
+        "count": 3,
+        "anomaly": -1
+    },
+    {
+        "message": "Nov 17 00:51:43 nnn systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.",
+        "count": 3,
+        "anomaly": -1
+    }
+]

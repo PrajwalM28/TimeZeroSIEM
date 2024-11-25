@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Log Data Visualization</title>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script>
+        // Connect to WebSocket server
+        const socket = io.connect('http://localhost:5000');
+
+        // Handle WebSocket connection
+        socket.on('connect', function() {
+            console.log('Connected to WebSocket server!');
+        });
+
+        // Display the initial message
+        socket.on('message', function(data) {
+            console.log('Message from server:', data);
+        });
+
+        // Display new log data received from the server
+        socket.on('new_log', function(data) {
+            const logContainer = document.getElementById('log-container');
+            logContainer.innerHTML += `<p>${data.message} | Count: ${data.count} | Anomaly: ${data.anomaly}</p>`;
+        });
+    </script>
+</head>
+<body>
+    <h1>Real-Time Log Data</h1>
+    <div id="log-container"></div>  <!-- Display log data here -->
+</body>
+</html>

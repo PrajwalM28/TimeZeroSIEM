@@ -1,0 +1,1626 @@
+[
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:21:53 nnn kernel: [ 8636.089155] PM: suspend entry (deep)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.099859] Filesystems sync: 0.010 seconds"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.100050] Freezing user space processes ... (elapsed 0.002 seconds) done."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.102193] OOM killer disabled."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.102194] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.103420] printk: Suspending console(s) (use no_console_suspend to debug)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.258190] sd 0:0:0:0: [sda] Synchronizing SCSI cache"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.258196] sd 1:0:0:0: [sdb] Synchronizing SCSI cache"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.258302] sd 0:0:0:0: [sda] Stopping disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.261843] sd 1:0:0:0: [sdb] Stopping disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.338721] ERROR @wl_notify_scan_status :"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.338724] wlp6s0 Scan_results error (-22)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.978402] ACPI: PM: Preparing to enter system sleep state S3"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.988766] ACPI: PM: Saving platform NVS memory"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.988836] Disabling non-boot CPUs ..."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.990318] smpboot: CPU 1 is now offline"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.992292] smpboot: CPU 2 is now offline"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8636.994282] smpboot: CPU 3 is now offline"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.004121] ACPI: PM: Low-level resume complete"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.004160] ACPI: PM: Restoring platform NVS memory"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.004649] Enabling non-boot CPUs ..."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.004702] x86: Booting SMP configuration:"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.004704] smpboot: Booting Node 0 Processor 1 APIC 0x2"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.007565] CPU1 is up"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.007608] smpboot: Booting Node 0 Processor 2 APIC 0x1"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.008608] CPU2 is up"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.008641] smpboot: Booting Node 0 Processor 3 APIC 0x3"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.009596] CPU3 is up"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.011448] ACPI: PM: Waking up from system sleep state S3"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.202449] sd 0:0:0:0: [sda] Starting disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.202449] sd 1:0:0:0: [sdb] Starting disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.484158] usb 1-1.6: reset full-speed USB device number 4 using ehci-pci"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.515239] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.520918] ata1.00: configured for UDMA/133"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.672164] usb 1-1.8: reset high-speed USB device number 5 using ehci-pci"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8637.860137] usb 1-1.5: reset high-speed USB device number 3 using ehci-pci"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.039202] OOM killer enabled."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.039204] Restarting tasks ..."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.040265] pci_bus 0000:04: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.040276] pci_bus 0000:06: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.040284] pcieport 0000:00:1c.2: bridge window [io  0x1000-0x0fff] to [bus 06] add_size 1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.040290] pcieport 0000:00:1c.2: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 06] add_size 200000 add_align 100000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.040300] pci_bus 0000:07: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.040314] pci_bus 0000:08: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.040331] pcieport 0000:00:1c.2: BAR 15: assigned [mem 0xf2600000-0xf27fffff 64bit pref]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.040338] pcieport 0000:00:1c.2: BAR 13: assigned [io  0x3000-0x3fff]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.047965] done."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.058337] nouveau 0000:08:00.0: Enabling HDA controller"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.058379] pci_bus 0000:04: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.058390] pci_bus 0000:06: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.058431] pci_bus 0000:07: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.058456] pci_bus 0000:08: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.184753] nouveau 0000:08:00.0: bus: MMIO write of 0000001f FAULT at 6013d4 [ PRIVRING ]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.357638] PM: suspend exit"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.474423] Bluetooth: hci0: BCM: chip id 70"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.475418] Bluetooth: hci0: BCM: features 0x06"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.491425] Bluetooth: hci0: BCM43142A"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.491431] Bluetooth: hci0: BCM43142A0 (001.001.011) build 0000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.495515] Bluetooth: hci0: BCM: firmware Patch file not found, tried:"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.495523] Bluetooth: hci0: BCM: 'brcm/BCM43142A0-0a5c-21d7.hcd'"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.495526] Bluetooth: hci0: BCM: 'brcm/BCM-0a5c-21d7.hcd'"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.565693] RTL8208 Fast Ethernet r8169-0-700:00: attached PHY driver (mii_bus:phy_addr=r8169-0-700:00, irq=MAC)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:37 nnn kernel: [ 8638.845701] r8169 0000:07:00.0 enp7s0: Link is Down"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:38 nnn kernel: [ 8639.528169] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:38 nnn kernel: [ 8639.595507] ata2.00: configured for UDMA/133"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:39 nnn kernel: [ 8640.500155] Bluetooth: hci0: command 0x1003 tx timeout"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:39 nnn kernel: [ 8640.501495] Bluetooth: hci0: unexpected event for opcode 0x1003"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:40 nnn kernel: [ 8641.460709] IPv6: ADDRCONF(NETDEV_CHANGE): wlp6s0: link becomes ready"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:41 nnn kernel: [ 8642.245907] atkbd serio0: Unknown key pressed (translated set 2, code 0x8d on isa0060/serio0)."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:32:41 nnn kernel: [ 8642.245915] atkbd serio0: Use 'setkeycodes e00d <keycode>' to make it known."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:59:45 nnn kernel: [10265.859607] matroskademux0:[12748]: segfault at 7f28d07f9000 ip 00007f290c1cf977 sp 00007f28df7fdcc8 error 6 in libc.so.6[7f290c057000+195000]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:59:45 nnn kernel: [10265.859629] Code: 48 ff c7 48 01 fe 48 8d 54 11 80 0f 1f 84 00 00 00 00 00 c5 fe 6f 0e c5 fe 6f 56 20 c5 fe 6f 5e 40 c5 fe 6f 66 60 48 83 ee 80 <c5> fd 7f 0f c5 fd 7f 57 20 c5 fd 7f 5f 40 c5 fd 7f 67 60 48 83 ef"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:59:49 nnn kernel: [10269.710255] matroskademux0:[12787]: segfault at 7f55e07f9000 ip 00007f5625ca6977 sp 00007f55fd568cc8 error 6 in libc.so.6[7f5625b2e000+195000]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:59:49 nnn kernel: [10269.710278] Code: 48 ff c7 48 01 fe 48 8d 54 11 80 0f 1f 84 00 00 00 00 00 c5 fe 6f 0e c5 fe 6f 56 20 c5 fe 6f 5e 40 c5 fe 6f 66 60 48 83 ee 80 <c5> fd 7f 0f c5 fd 7f 57 20 c5 fd 7f 5f 40 c5 fd 7f 67 60 48 83 ef"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:59:50 nnn kernel: [10270.774106] matroskademux0:[12827]: segfault at 7f70407f9000 ip 00007f7085251977 sp 00007f70537fdcc8 error 6 in libc.so.6[7f70850d9000+195000]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 00:59:50 nnn kernel: [10270.774126] Code: 48 ff c7 48 01 fe 48 8d 54 11 80 0f 1f 84 00 00 00 00 00 c5 fe 6f 0e c5 fe 6f 56 20 c5 fe 6f 5e 40 c5 fe 6f 66 60 48 83 ee 80 <c5> fd 7f 0f c5 fd 7f 57 20 c5 fd 7f 5f 40 c5 fd 7f 67 60 48 83 ef"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:03:17 nnn kernel: [10477.629959] r8169 0000:07:00.0 enp7s0: Link is Down"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:03:17 nnn kernel: [10477.831826] PM: suspend entry (deep)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10477.937057] Filesystems sync: 0.105 seconds"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10477.937496] Freezing user space processes ... (elapsed 0.004 seconds) done."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10477.941796] OOM killer disabled."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10477.941797] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10477.943072] printk: Suspending console(s) (use no_console_suspend to debug)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.112522] sd 1:0:0:0: [sdb] Synchronizing SCSI cache"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.112546] sd 0:0:0:0: [sda] Synchronizing SCSI cache"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.112590] sd 0:0:0:0: [sda] Stopping disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.116174] sd 1:0:0:0: [sdb] Stopping disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.200543] ERROR @wl_notify_scan_status :"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.200545] wlp6s0 Scan_results error (-22)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.820340] ACPI: PM: Preparing to enter system sleep state S3"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.829713] ACPI: PM: Saving platform NVS memory"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.829784] Disabling non-boot CPUs ..."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.831213] smpboot: CPU 1 is now offline"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.833050] smpboot: CPU 2 is now offline"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.835001] smpboot: CPU 3 is now offline"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.844922] ACPI: PM: Low-level resume complete"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.844963] ACPI: PM: Restoring platform NVS memory"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.845441] Enabling non-boot CPUs ..."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.845494] x86: Booting SMP configuration:"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.845496] smpboot: Booting Node 0 Processor 1 APIC 0x2"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.848343] CPU1 is up"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.848385] smpboot: Booting Node 0 Processor 2 APIC 0x1"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.849379] CPU2 is up"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.849412] smpboot: Booting Node 0 Processor 3 APIC 0x3"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.850433] CPU3 is up"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10478.852270] ACPI: PM: Waking up from system sleep state S3"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10479.043291] sd 0:0:0:0: [sda] Starting disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10479.044376] sd 1:0:0:0: [sdb] Starting disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10479.325759] usb 1-1.6: reset full-speed USB device number 4 using ehci-pci"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10479.356848] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10479.362496] ata1.00: configured for UDMA/133"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10479.513642] usb 1-1.5: reset high-speed USB device number 3 using ehci-pci"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10479.701504] usb 1-1.8: reset high-speed USB device number 5 using ehci-pci"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:14 nnn kernel: [10479.813612] OOM killer enabled."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.813614] Restarting tasks ..."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.814369] pci_bus 0000:04: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.814381] pci_bus 0000:06: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.814394] pci_bus 0000:07: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.814409] pci_bus 0000:08: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.815475] pci_bus 0000:04: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.815486] pci_bus 0000:06: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.815497] pci_bus 0000:07: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.815510] pci_bus 0000:08: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.826271] nouveau 0000:08:00.0: Enabling HDA controller"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.827036] done."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.980466] nouveau 0000:08:00.0: bus: MMIO write of 65646f1f FAULT at 6013d4 [ PRIVRING ]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10479.980497] nouveau 0000:08:00.0: bus: MMIO write of badf1001 FAULT at 50405c [ PRIVRING ]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10480.070178] PM: suspend exit"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10480.234929] Bluetooth: hci0: BCM: chip id 70"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10480.235927] Bluetooth: hci0: BCM: features 0x06"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10480.248520] RTL8208 Fast Ethernet r8169-0-700:00: attached PHY driver (mii_bus:phy_addr=r8169-0-700:00, irq=MAC)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10480.251957] Bluetooth: hci0: BCM43142A"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10480.251964] Bluetooth: hci0: BCM43142A0 (001.001.011) build 0000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10480.253017] Bluetooth: hci0: BCM: firmware Patch file not found, tried:"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10480.253023] Bluetooth: hci0: BCM: 'brcm/BCM43142A0-0a5c-21d7.hcd'"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10480.253026] Bluetooth: hci0: BCM: 'brcm/BCM-0a5c-21d7.hcd'"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:15 nnn kernel: [10480.535390] r8169 0000:07:00.0 enp7s0: Link is Down"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:16 nnn kernel: [10481.301158] IPv6: ADDRCONF(NETDEV_CHANGE): wlp6s0: link becomes ready"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:16 nnn kernel: [10481.396622] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:16 nnn kernel: [10481.463155] ata2.00: configured for UDMA/133"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:17 nnn kernel: [10482.264118] Bluetooth: hci0: command 0x1003 tx timeout"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:17 nnn kernel: [10482.265074] Bluetooth: hci0: unexpected event for opcode 0x1003"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:18 nnn kernel: [10483.269713] atkbd serio0: Unknown key pressed (translated set 2, code 0x8d on isa0060/serio0)."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 01:51:18 nnn kernel: [10483.269719] atkbd serio0: Use 'setkeycodes e00d <keycode>' to make it known."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:29:48 nnn kernel: [16392.712906] r8169 0000:07:00.0 enp7s0: Link is Down"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:29:48 nnn kernel: [16392.887089] PM: suspend entry (deep)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16392.900193] Filesystems sync: 0.013 seconds"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16392.900372] Freezing user space processes ... (elapsed 0.002 seconds) done."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16392.902390] OOM killer disabled."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16392.902391] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16392.903597] printk: Suspending console(s) (use no_console_suspend to debug)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.075816] sd 1:0:0:0: [sdb] Synchronizing SCSI cache"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.075817] sd 0:0:0:0: [sda] Synchronizing SCSI cache"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.075901] sd 0:0:0:0: [sda] Stopping disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.079505] sd 1:0:0:0: [sdb] Stopping disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.147303] ERROR @wl_notify_scan_status :"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.147306] wlp6s0 Scan_results error (-22)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.804077] ACPI: PM: Preparing to enter system sleep state S3"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.813848] ACPI: PM: Saving platform NVS memory"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.813917] Disabling non-boot CPUs ..."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.815345] smpboot: CPU 1 is now offline"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.817297] smpboot: CPU 2 is now offline"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.819350] smpboot: CPU 3 is now offline"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.829375] ACPI: PM: Low-level resume complete"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.829415] ACPI: PM: Restoring platform NVS memory"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.829893] Enabling non-boot CPUs ..."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.829947] x86: Booting SMP configuration:"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.829948] smpboot: Booting Node 0 Processor 1 APIC 0x2"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.832797] CPU1 is up"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.832839] smpboot: Booting Node 0 Processor 2 APIC 0x1"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.833834] CPU2 is up"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.833866] smpboot: Booting Node 0 Processor 3 APIC 0x3"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.834800] CPU3 is up"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16393.836649] ACPI: PM: Waking up from system sleep state S3"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16394.028762] sd 0:0:0:0: [sda] Starting disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16394.028762] sd 1:0:0:0: [sdb] Starting disk"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16394.309746] usb 1-1.5: reset high-speed USB device number 3 using ehci-pci"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16394.340921] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16394.346659] ata1.00: configured for UDMA/133"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16394.497846] usb 1-1.6: reset full-speed USB device number 4 using ehci-pci"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16394.685823] usb 1-1.8: reset high-speed USB device number 5 using ehci-pci"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16394.802090] OOM killer enabled."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16394.802092] Restarting tasks ... done."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:44 nnn kernel: [16394.819743] nouveau 0000:08:00.0: Enabling HDA controller"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16394.942819] pci_bus 0000:04: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16394.942830] pci_bus 0000:06: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16394.942859] pci_bus 0000:07: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16394.942869] pci_bus 0000:08: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16394.958682] pci_bus 0000:04: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16394.958694] pci_bus 0000:06: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16394.958722] pci_bus 0000:07: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16394.958742] pci_bus 0000:08: Allocating resources"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16395.134867] nouveau 0000:08:00.0: bus: MMIO write of ffffff1f FAULT at 6013d4 [ PRIVRING ]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16395.159017] PM: suspend exit"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16395.268039] Bluetooth: hci0: BCM: chip id 70"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16395.269046] Bluetooth: hci0: BCM: features 0x06"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16395.285053] Bluetooth: hci0: BCM43142A"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16395.285061] Bluetooth: hci0: BCM43142A0 (001.001.011) build 0000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16395.286099] Bluetooth: hci0: BCM: firmware Patch file not found, tried:"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16395.286104] Bluetooth: hci0: BCM: 'brcm/BCM43142A0-0a5c-21d7.hcd'"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16395.286106] Bluetooth: hci0: BCM: 'brcm/BCM-0a5c-21d7.hcd'"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16395.326523] RTL8208 Fast Ethernet r8169-0-700:00: attached PHY driver (mii_bus:phy_addr=r8169-0-700:00, irq=MAC)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:45 nnn kernel: [16395.604465] r8169 0000:07:00.0 enp7s0: Link is Down"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:46 nnn kernel: [16396.325773] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:46 nnn kernel: [16396.362691] IPv6: ADDRCONF(NETDEV_CHANGE): wlp6s0: link becomes ready"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:46 nnn kernel: [16396.392902] ata2.00: configured for UDMA/133"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:47 nnn kernel: [16397.317816] Bluetooth: hci0: command 0x1003 tx timeout"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:47 nnn kernel: [16397.319242] Bluetooth: hci0: unexpected event for opcode 0x1003"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:48 nnn kernel: [16398.292102] atkbd serio0: Unknown key pressed (translated set 2, code 0x8d on isa0060/serio0)."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 03:50:48 nnn kernel: [16398.292115] atkbd serio0: Use 'setkeycodes e00d <keycode>' to make it known."
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:03 nnn kernel: [19293.415785] audit: type=1400 audit(1731798543.722:51): apparmor=\"ALLOWED\" operation=\"connect\" profile=\"libreoffice-soffice\" name=\"/run/user/1000/at-spi/bus_0\" pid=22116 comm=\"soffice.bin\" requested_mask=\"wr\" denied_mask=\"wr\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:03 nnn kernel: [19293.415890] audit: type=1400 audit(1731798543.722:52): apparmor=\"ALLOWED\" operation=\"file_perm\" profile=\"libreoffice-soffice\" name=\"/run/user/1000/at-spi/bus_0\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:03 nnn kernel: [19293.415896] audit: type=1400 audit(1731798543.722:53): apparmor=\"ALLOWED\" operation=\"file_perm\" profile=\"libreoffice-soffice\" name=\"/run/user/1000/at-spi/bus_0\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:03 nnn kernel: [19293.583833] audit: type=1400 audit(1731798543.890:54): apparmor=\"ALLOWED\" operation=\"open\" profile=\"libreoffice-soffice\" name=\"/home/nnn/.icons/default/index.theme\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:03 nnn kernel: [19293.584312] audit: type=1400 audit(1731798543.890:55): apparmor=\"ALLOWED\" operation=\"open\" profile=\"libreoffice-soffice\" name=\"/home/nnn/.icons/default/index.theme\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:03 nnn kernel: [19293.591757] audit: type=1400 audit(1731798543.898:56): apparmor=\"ALLOWED\" operation=\"open\" profile=\"libreoffice-soffice\" name=\"/home/nnn/.icons/default/index.theme\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:03 nnn kernel: [19293.592227] audit: type=1400 audit(1731798543.898:57): apparmor=\"ALLOWED\" operation=\"open\" profile=\"libreoffice-soffice\" name=\"/home/nnn/.icons/default/index.theme\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:03 nnn kernel: [19293.592672] audit: type=1400 audit(1731798543.898:58): apparmor=\"ALLOWED\" operation=\"open\" profile=\"libreoffice-soffice\" name=\"/home/nnn/.icons/default/index.theme\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:04 nnn kernel: [19294.352420] audit: type=1400 audit(1731798544.658:59): apparmor=\"ALLOWED\" operation=\"open\" profile=\"libreoffice-soffice\" name=\"/home/nnn/.icons/default/index.theme\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:05 nnn kernel: [19294.776394] audit: type=1400 audit(1731798545.082:60): apparmor=\"ALLOWED\" operation=\"open\" profile=\"libreoffice-soffice\" name=\"/home/nnn/.icons/default/index.theme\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:15 nnn kernel: [19305.569865] kauditd_printk_skb: 4 callbacks suppressed"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:15 nnn kernel: [19305.569868] audit: type=1400 audit(1731798555.875:65): apparmor=\"ALLOWED\" operation=\"open\" profile=\"libreoffice-soffice\" name=\"/home/nnn/.icons/default/index.theme\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:15 nnn kernel: [19305.627703] audit: type=1400 audit(1731798555.931:66): apparmor=\"ALLOWED\" operation=\"open\" profile=\"libreoffice-soffice\" name=\"/home/nnn/.icons/default/index.theme\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:23 nnn kernel: [19312.802181] audit: type=1400 audit(1731798563.108:67): apparmor=\"ALLOWED\" operation=\"open\" profile=\"libreoffice-soffice\" name=\"/home/nnn/.icons/default/index.theme\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:39:26 nnn kernel: [19316.174205] audit: type=1400 audit(1731798566.480:68): apparmor=\"ALLOWED\" operation=\"open\" profile=\"libreoffice-soffice\" name=\"/home/nnn/.icons/default/index.theme\" pid=22116 comm=\"soffice.bin\" requested_mask=\"r\" denied_mask=\"r\" fsuid=1000 ouid=1000"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:45:25 nnn kernel: [19675.483034] nouveau 0000:08:00.0: Enabling HDA controller"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 04:45:25 nnn kernel: [19675.585473] nouveau 0000:08:00.0: bus: MMIO write of 0000001f FAULT at 6013d4 [ PRIVRING ]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 05:02:07 nnn kernel: [20676.818082] nouveau 0000:08:00.0: Enabling HDA controller"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 05:02:07 nnn kernel: [20676.919615] nouveau 0000:08:00.0: bus: MMIO write of 8000001f FAULT at 6013d4 [ PRIVRING ]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 05:03:21 nnn kernel: [20750.848957] nouveau 0000:08:00.0: Enabling HDA controller"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 05:03:21 nnn kernel: [20750.948968] nouveau 0000:08:00.0: bus: MMIO write of ffffff1f FAULT at 6013d4 [ PRIVRING ]"
+    },
+    {
+        "timestamp": "2024-11-25T12:00:00Z",
+        "event_type": "kernel",
+        "user": "user1",
+        "ip_address": "192.168.1.1",
+        "message": "Nov 17 05:03:21 nnn kernel: [20751.209955] r8169 0000:07:00.0 enp7s0: Link is Down"
+    }
+]
