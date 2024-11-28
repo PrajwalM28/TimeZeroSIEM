@@ -1,26 +1,24 @@
 import time
-import socketio
+from socketio import Client
 
-# Create a Socket.IO client
-sio = socketio.Client()
+# Create a SocketIO client
+socket = Client()
 
 # Connect to the WebSocket server
+socket.connect('http://localhost:5000')
+
+# Simulate sending log data continuously
 try:
-    sio.connect('http://localhost:5000')
-    print("Connected to WebSocket server.")
-except Exception as e:
-    print(f"Error connecting to WebSocket server: {e}")
-
-# Send simulated log data to the server every 5 seconds
-def send_log_data():
-    while True:
+    count = 1
+    while True:  # Infinite loop to send data continuously
         log_data = {
-            'message': 'Simulated log data from client at ' + time.strftime('%H:%M:%S'),
-            'count': time.time() % 100,  # Use time-based values
-            'anomaly': 'Yes' if time.time() % 2 < 1 else 'No'  # Random anomaly flag
+            'message': f'Log entry {count}',
+            'count': count,
+            'anomaly': 0 if count % 2 == 0 else 1  # Alternate anomalies
         }
-        sio.emit('send_log_data', log_data)  # Send log data to server
-        time.sleep(5)
-
-# Run the simulated log data function
-send_log_data()
+        print(f"Sending log data: {log_data}")  # Print log data for debugging
+        socket.emit('send_log_data', log_data)
+        count += 1
+        time.sleep(2)  # Wait 2 seconds before sending the next log
+finally:
+    socket.disconnect()

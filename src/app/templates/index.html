@@ -5,24 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real-Time Log Data Visualization</title>
     <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            color: #333;
+        }
+        #log-container {
+            width: 80%;
+            max-height: 60vh;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            margin: 0;
+            padding: 5px;
+            font-size: 14px;
+        }
+        .log-entry.anomaly {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
     <script>
         // Connect to WebSocket server
-        const socket = io.connect('http://localhost:5000');
+        const socket = io.connect('http://127.0.0.1:5000');
 
         // Handle WebSocket connection
         socket.on('connect', function() {
             console.log('Connected to WebSocket server!');
         });
 
-        // Display the initial message
-        socket.on('message', function(data) {
-            console.log('Message from server:', data);
-        });
-
         // Display new log data received from the server
         socket.on('new_log', function(data) {
+            console.log('New log data received:', data);
+
+            // Format and append the log entry
             const logContainer = document.getElementById('log-container');
-            logContainer.innerHTML += `<p>${data.message} | Count: ${data.count} | Anomaly: ${data.anomaly}</p>`;
+            const logEntry = document.createElement('p');
+            logEntry.innerHTML = `<strong>Message:</strong> ${data.message} | <strong>Count:</strong> ${data.count} | <strong>Anomaly:</strong> ${data.anomaly}`;
+            if (data.anomaly) {
+                logEntry.classList.add('log-entry', 'anomaly');  // Highlight anomalies in red
+            }
+            logContainer.appendChild(logEntry);
         });
     </script>
 </head>
